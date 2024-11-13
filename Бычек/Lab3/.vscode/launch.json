@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Lab3}",
+            "name": "Debug Lab3",
+            "program": "${workspaceFolder:Lab3}/.build/debug/Lab3",
+            "preLaunchTask": "swift: Build Debug Lab3"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Lab3}",
+            "name": "Release Lab3",
+            "program": "${workspaceFolder:Lab3}/.build/release/Lab3",
+            "preLaunchTask": "swift: Build Release Lab3"
+        }
+    ]
+}
